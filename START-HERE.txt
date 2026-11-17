@@ -1,0 +1,77 @@
+ASLAM AFEERDEEN — PORTFOLIO WEBSITE
+=================================
+HTML + CSS + JavaScript. No Node.js, npm, TypeScript, Firebase or build needed.
+
+1. PREVIEW ON YOUR COMPUTER
+Extract the ZIP first. Open index.html in Chrome or Edge.
+Fonts load from Google Fonts when online; system fonts work offline.
+
+2. PUBLISH ON GITHUB PAGES
+Use a NEW repository for this personal portfolio, e.g. aslam-portfolio.
+Do not overwrite your existing /com/ studio website: Hire Me links there.
+Upload the CONTENTS of this ZIP into the repository root, keeping images/ intact.
+index.html must be at the repository root, not inside another folder.
+In repository Settings > Pages, choose Deploy from a branch, main, /(root), Save.
+Wait for GitHub's Pages deployment to finish and open the URL GitHub shows.
+Do not upload the ZIP itself as the website; extract it and upload its contents.
+
+3. PHOTO MATTUM REPLACE PANNA
+images/ folder-la same filename and same extension-la new photo replace pannunga.
+Example: graduation-day.png replace pannina code maatha thevai illa.
+Hover, reveal and photo viewer effects automatic-ah work aagum.
+GitHub-la images folder open panni same-name file upload pannunga; commit changes.
+Old image therinja Ctrl + F5 refresh pannunga after deployment finishes.
+
+IMPORTANT: Renaming a .jpg to .png does not convert the format.
+Export your image as PNG to replace a PNG, or change its path in portfolio.js.
+
+Current files:
+portrait.png              = your main portrait
+  Prefer a square transparent PNG with similar head-and-shoulders framing.
+  The warm studio lighting is included in the edited portrait image.
+  Orbiting tools and glow are independent of the photo.
+graduation-day.png         = pink saree portrait
+graduation-evening.png     = evening bouquet portrait
+kandy.png                 = Kandy lake
+bridge.png                = suspension bridge
+kitten.png                = kitten
+
+4. PUDHU PHOTO ADD PANNA
+Copy a photo into images/ (e.g. wedding.jpg).
+Open portfolio.js in Notepad or GitHub's editor.
+Add this entry before the closing ]; of window.PORTFOLIO (keep commas):
+
+  { image: 'images/wedding.jpg', title: 'A Beautiful Beginning', category: 'Weddings', alt: 'Describe what is in this photograph' },
+
+New categories become filter buttons automatically.
+Add wide: true to a landscape entry if you want a full-width card.
+Do not paste a Pinterest webpage URL in image: use the actual local image file.
+Remove an entire entry to remove a work. Reorder entries to reorder the gallery.
+Titles, captions, filters, click viewer and animations update automatically.
+
+5. SKILLS UPDATE PANNA
+In portfolio.js, edit the level numbers in window.SKILLS (0–100).
+The supplied percentages are editable self-assessments.
+
+6. OTHER CHANGES
+index.html  = name, biography, contact details, Hire Me and service links
+script.js   = social links and automatic gallery behavior
+styles.css  = colors, layout, lighting and animation speed
+
+Animations: orbiting tools, pulsing glow, floating particles, entrance reveal,
+scroll reveal, skill fills, photo hover, dialog entrance, button hover.
+Footer Pause motion stops decorative motion. Reduced-motion settings respected.
+Gallery supports mouse/touch, Escape, left/right keys and swipe on the large photo.
+Email opens the visitor's email app; WhatsApp opens your chat. No message database.
+
+Photo quality: original uploaded portfolio photographs are included unchanged.
+No invented work, testimonials, client counts or experience claims are included.
+This package is ready to upload; it has not been published to GitHub yet.
+
+V2 UPDATE: corrected DaVinci Resolve logo in hero and skills. Hero tools now show logos only, on a slow outer orbit.
+Logo asset: DaVinci Resolve 17 logo, Asav/Blackmagic Design, Wikimedia Commons (PD-textlogo). https://commons.wikimedia.org/wiki/File:DaVinci_Resolve_17_logo.svg
+
+V3 UPDATE: warm edited portrait from the approved design sample included. Outer logo animation retained.
+
+NEURAL PORTRAIT UPDATE
+Six creative tool icons, moving light pulses, rotating HUD arcs and gentle float are separate from your portrait. Replace images/portrait.png with a transparent PNG to keep all effects automatically. Pause motion works for all effects.
